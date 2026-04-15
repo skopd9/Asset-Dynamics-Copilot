@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "dlQNPJLJhJum-009E4opn"
+uri = "file://artifacts/asset-dynamics-masoutis/src/assets/images/supermarket.png"
+type = "image"
+title = "Modern Greek supermarket exterior"
+
+[[generated]]
+id = "KIncoM98fSEYn-koB6SQw"
+uri = "file://artifacts/asset-dynamics-masoutis/src/assets/images/dashboard.png"
+type = "image"
+title = "AI real estate dashboard"
+
+[[generated]]
+id = "2t19o6ZorA1Zhvv6F4FCy"
+uri = "file://artifacts/asset-dynamics-masoutis/src/assets/images/thessaloniki.png"
+type = "image"
+title = "Aerial Thessaloniki Greece"

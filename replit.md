@@ -16,6 +16,10 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - **API codegen**: Orval (from OpenAPI spec)
 - **Build**: esbuild (CJS bundle)
 
+## Artifacts
+
+- **asset-dynamics-masoutis** (`/`): Marketing landing page for Asset Dynamics pitched to Masoutis supermarket chain in Greece. Built by Recognyte/Resolute. AI co-pilot positioning, Framer Motion animations, AI-generated images.
+
 ## Key Commands
 
 - `pnpm run typecheck` — full typecheck across all packages
