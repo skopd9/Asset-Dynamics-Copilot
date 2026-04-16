@@ -15,8 +15,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { translations } from "../translations";
 
-import videoPosterImg from "../assets/images/hero-video-poster.png";
-
 type Lang = "en" | "el";
 
 const fadeUp = {
@@ -116,36 +114,8 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="container mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent mb-4">Video overview</p>
-              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-5">See Asset Dynamics in motion</h2>
-              <p className="text-muted-foreground text-lg">
-                This embedded video introduces the platform’s portfolio control, AI lease intelligence, and reporting workflow in one quick overview.
-              </p>
-            </div>
-            <div className="rounded-2xl overflow-hidden border border-border shadow-2xl bg-card">
-              <video controls poster={videoPosterImg} className="w-full aspect-video bg-black">
-                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="why-now" className="py-12 bg-card border-y border-border">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
-              { value: "1,256+", label: "Points of Sale" },
-              { value: "800+", label: "Kritikos Leases to Integrate" },
-              { value: "~€2.2B", label: "Pro-Forma Revenue" },
-              { value: "Now", label: "Need for SAP-Ready Control" },
-            ].map((item, i) => (
-              <div key={i} className="text-center">      {/* ── Stats Bar ── */}
-      <section className="py-10 bg-card border-y border-border">
+      {/* ── Stats Bar ── */}
+      <section id="why-now" className="py-10 bg-card border-y border-border">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -155,7 +125,8 @@ export default function LandingPage() {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {t.stats.map((item, i) => (
-              <motion.div key={i} variants={fadeUp} className="text-center">                <div className="text-3xl md:text-4xl font-bold text-accent mb-1">{item.value}</div>
+              <motion.div key={i} variants={fadeUp} className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-accent mb-1">{item.value}</div>
                 <div className="text-xs font-medium text-muted-foreground uppercase tracking-wider">{item.label}</div>
               </motion.div>
             ))}
@@ -331,6 +302,44 @@ export default function LandingPage() {
                 </div>
               </motion.div>
             ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ── Video ── */}
+      <section className="py-20 md:py-28 border-t border-border bg-muted/30">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewportOnce}
+            variants={stagger(0.08)}
+          >
+            <motion.p
+              variants={fadeUp}
+              className="text-sm font-semibold uppercase tracking-[0.2em] text-accent mb-4"
+            >
+              {t.video.kicker}
+            </motion.p>
+            <motion.h2
+              variants={fadeUp}
+              className="text-3xl md:text-4xl font-serif font-bold mb-4"
+            >
+              {t.video.title}
+            </motion.h2>
+            <motion.p
+              variants={fadeUp}
+              className="text-muted-foreground text-lg mb-10 max-w-2xl mx-auto leading-relaxed"
+            >
+              {t.video.body}
+            </motion.p>
+            <motion.div variants={fadeUp} className="mx-auto max-w-3xl w-full">
+              <div className="rounded-2xl overflow-hidden border border-border shadow-2xl bg-card ring-1 ring-black/5">
+                <video controls className="w-full aspect-video bg-black">
+                  <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </section>

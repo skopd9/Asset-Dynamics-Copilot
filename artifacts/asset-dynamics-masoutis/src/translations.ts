@@ -106,6 +106,11 @@ export const translations = {
         { stat: "€1.5B+", label: "Assets under management in Greece" },
       ],
     },
+    video: {
+      kicker: "Video overview",
+      title: "See Asset Dynamics in motion",
+      body: "This embedded video introduces the platform’s portfolio control, AI lease intelligence, and reporting workflow in one quick overview.",
+    },
     cta: {
       title: "See your portfolio in Asset Dynamics.",
       subtitle: "30 minutes. Your actual lease data. See what unified control looks like across both the Masoutis and Kritikos portfolios.",
@@ -221,6 +226,11 @@ export const translations = {
         { stat: "30 λεπτά", label: "Για ενσωμάτωση νέου ακινήτου" },
         { stat: "€1,5 Δις+", label: "Περιουσιακά στοιχεία υπό διαχείριση στην Ελλάδα" },
       ],
+    },
+    video: {
+      kicker: "Επισκόπηση βίντεο",
+      title: "Δείτε το Asset Dynamics σε δράση",
+      body: "Αυτό το ενσωματωμένο βίντεο παρουσιάζει τον έλεγχο χαρτοφυλακίου, την τεχνητή νοημοσύνη για μισθώσεις και τη ροή αναφορών σε μία σύντομη επισκόπηση.",
     },
     cta: {
       title: "Δείτε το χαρτοφυλάκιό σας στο Asset Dynamics.",
