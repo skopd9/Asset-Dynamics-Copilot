@@ -4,7 +4,6 @@ import { ArrowRightLeft, Bell, BrainCircuit, Building2, ChevronRight, ShieldChec
 import { Button } from "@/components/ui/button";
 
 import thessalonikiImg from "../assets/images/thessaloniki.png";
-import dashboardImg from "../assets/images/dashboard.png";
 import supermarketImg from "../assets/images/supermarket.png";
 
 const fadeIn = {
@@ -71,7 +70,7 @@ export default function LandingPage() {
               Run 1,256 stores with one real estate command center.
             </motion.h1>
             <motion.p variants={fadeIn} className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-              Asset Dynamics helps Masoutis unify the Kritikos portfolio, automate CPI indexation, and keep SAP financial reporting aligned in real time. The result is stronger governance, faster decision-making, and lower operational risk across the full national network.
+              Asset Dynamics helps Masoutis unify the Kritikos portfolio, automate CPI indexation, and keep SAP financial reporting aligned. The result is stronger governance, faster decision-making, and lower operational risk across the full national network.
             </motion.p>
           </motion.div>
         </div>
@@ -113,7 +112,7 @@ export default function LandingPage() {
                 <li className="flex gap-3">
                   <span className="text-destructive font-bold">•</span>
                   <span>
-                    <span className="font-semibold text-foreground">CPI indexation leakage:</span> delayed or inconsistent rent adjustments across 1,200+ locations directly pressure EBITDA.
+                    <span className="font-semibold text-foreground">Unverified rent escalations:</span> blind acceptance of landlord CPI calculations or sudden retroactive rent hikes across 1,200+ locations directly pressure EBITDA.
                   </span>
                 </li>
                 <li className="flex gap-3">
@@ -182,7 +181,7 @@ export default function LandingPage() {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-accent/20 to-transparent rounded-2xl blur-2xl" />
-              <img src={dashboardImg} alt="Asset Dynamics Dashboard" className="relative rounded-2xl shadow-2xl border border-white/10" />
+              <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=2000&q=80" alt="Asset Dynamics Dashboard" className="relative rounded-2xl shadow-2xl border border-white/10" />
             </div>
           </div>
         </div>
