@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRightLeft, Bell, BrainCircuit, Building2, ChevronRight, ShieldCheck } from "lucide-react";
+import { ArrowRightLeft, Bell, BrainCircuit, Building2, ChevronRight, ShieldCheck, LineChart, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 import thessalonikiImg from "../assets/images/thessaloniki.png";
@@ -158,6 +158,16 @@ export default function LandingPage() {
                     icon: <ArrowRightLeft className="w-5 h-5 text-accent" />,
                     title: "SAP + IFRS 16 Ready",
                     desc: "Real-time sync with SAP S/4HANA for clean reporting and audit confidence.",
+                  },
+                  {
+                    icon: <LineChart className="w-5 h-5 text-accent" />,
+                    title: "Capex & Opex Benchmarking",
+                    desc: "Track renovation milestones and compare energy/maintenance costs per m² across formats.",
+                  },
+                  {
+                    icon: <Globe className="w-5 h-5 text-accent" />,
+                    title: "Predictive Market Intelligence",
+                    desc: "Optimize Attica expansion and forecast yields (in partnership with REDataset).",
                   },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
