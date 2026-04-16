@@ -10,6 +10,7 @@ import {
   LineChart,
   Globe,
   ShieldAlert,
+  MapPin,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { translations } from "../translations";
@@ -39,6 +40,7 @@ const platformIcons = [
   <ShieldAlert className="w-5 h-5" />,
   <ArrowRightLeft className="w-5 h-5" />,
   <LineChart className="w-5 h-5" />,
+  <MapPin className="w-5 h-5" />,
 ];
 
 const outcomeIcons = [

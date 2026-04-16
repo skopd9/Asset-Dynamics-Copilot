@@ -8,32 +8,32 @@ export const translations = {
     },
     hero: {
       badge: "Prepared for Diamantis Masoutis S.A.",
-      title: "1,200 stores. 890 new leases. One system to hold it all.",
-      subtitle: "The Kritikos portfolio just landed. Here is how you control it.",
+      title: "Your entire real estate portfolio. One command center.",
+      subtitle: "Every Masoutis and Kritikos lease — governed, searchable, and SAP-aligned from a single platform.",
     },
     stats: [
-      { value: "1,200+", label: "Stores Nationwide" },
+      { value: "370+", label: "Existing Masoutis Stores" },
       { value: "890", label: "Kritikos Leases Incoming" },
-      { value: "6", label: "Different Store Formats" },
-      { value: "€2.2B", label: "Combined Revenue" },
+      { value: "6", label: "New Store Formats to Absorb" },
+      { value: "€2.2B", label: "Combined Revenue at Stake" },
     ],
     painPoints: {
-      title: "Three ways the portfolio leaks value right now",
+      title: "Where value leaks — before and after the acquisition",
       items: [
         {
           number: "01",
-          title: "Unstandardized leases",
-          desc: "890 Kritikos leases across 6 store formats. Different terms, different landlords, different break clauses. Miss one notice window and you are locked into years of rent on a store you planned to close.",
+          title: "Your existing leases are already under pressure",
+          desc: "CPI is at 2.7%. Landlords across your current 370 stores are sending escalation letters right now. Without automated verification against ELSTAT data, even a 0.5% error you accept across the portfolio adds up to hundreds of thousands per year.",
         },
         {
           number: "02",
-          title: "Unverified rent increases",
-          desc: "CPI is at 2.7%. Landlords are sending escalation letters now. Across 1,200 locations, even a 0.5% miscalculation you accept adds up to hundreds of thousands per year in silent overpayment.",
+          title: "890 new leases are arriving with no standard format",
+          desc: "Kritikos operated 6 different store formats — corporate, franchise, Ariadne, Greek Markets, Progress, Sun. Each with different terms, landlords, and break clauses. Miss one notice window and you pay rent on a store you planned to close.",
         },
         {
           number: "03",
-          title: "Balance sheet drift",
-          desc: "Every lease modification during integration must update SAP for IFRS 16. When operations and finance are not in sync, you get audit findings — not clean reports.",
+          title: "The combined portfolio breaks manual controls",
+          desc: "Every lease across 1,200+ locations must sit on the balance sheet under IFRS 16. When operations modify leases faster than finance can update SAP, you get audit findings — not clean reports.",
         },
       ],
     },
@@ -59,6 +59,10 @@ export const translations = {
         {
           title: "Capex & Opex Benchmarking",
           desc: "Compare energy, maintenance, and renovation costs per m² across every format.",
+        },
+        {
+          title: "Site Suitability & Market Intelligence",
+          desc: "Powered by REDataset, our Greek data analytics partner. Score new locations, benchmark rents, and forecast yields for Attica expansion.",
         },
       ],
     },
@@ -104,7 +108,7 @@ export const translations = {
     },
     cta: {
       title: "See your portfolio in Asset Dynamics.",
-      subtitle: "30 minutes. Your data. A live walkthrough of what control looks like at 1,200 stores.",
+      subtitle: "30 minutes. Your actual lease data. See what unified control looks like across both the Masoutis and Kritikos portfolios.",
       button: "Book a Demo",
     },
     footer: {
@@ -120,32 +124,32 @@ export const translations = {
     },
     hero: {
       badge: "Προετοιμάστηκε για τη Διαμαντής Μασούτης Α.Ε.",
-      title: "1.200 καταστήματα. 890 νέες μισθώσεις. Ένα σύστημα για τον έλεγχο όλων.",
-      subtitle: "Το χαρτοφυλάκιο Κρητικός μόλις προσγειώθηκε. Δείτε πώς το ελέγχετε.",
+      title: "Ολόκληρο το χαρτοφυλάκιο ακινήτων σας. Ένα κέντρο ελέγχου.",
+      subtitle: "Κάθε μίσθωση Μασούτη και Κρητικού — ελεγχόμενη, αναζητήσιμη και ευθυγραμμισμένη με το SAP από μία πλατφόρμα.",
     },
     stats: [
-      { value: "1.200+", label: "Καταστήματα Πανελλαδικά" },
+      { value: "370+", label: "Υφιστάμενα Καταστήματα Μασούτης" },
       { value: "890", label: "Εισερχόμενες Μισθώσεις Κρητικός" },
-      { value: "6", label: "Διαφορετικοί Τύποι Καταστημάτων" },
-      { value: "€2,2 Δις", label: "Ενοποιημένα Έσοδα" },
+      { value: "6", label: "Νέοι Τύποι Καταστημάτων προς Απορρόφηση" },
+      { value: "€2,2 Δις", label: "Συνολικά Έσοδα σε Κίνδυνο" },
     ],
     painPoints: {
-      title: "Τρεις τρόποι που χάνεται αξία από το χαρτοφυλάκιο αυτή τη στιγμή",
+      title: "Πού χάνεται αξία — πριν και μετά την εξαγορά",
       items: [
         {
           number: "01",
-          title: "Μη τυποποιημένες μισθώσεις",
-          desc: "890 μισθώσεις Κρητικός σε 6 τύπους καταστημάτων. Διαφορετικοί όροι, διαφορετικοί ιδιοκτήτες, διαφορετικές ρήτρες λήξης. Χάστε μία προθεσμία ειδοποίησης και δεσμεύεστε σε ενοίκιο για κατάστημα που σχεδιάζατε να κλείσετε.",
+          title: "Οι υφιστάμενες μισθώσεις σας ήδη πιέζονται",
+          desc: "Ο ΔΤΚ είναι στο 2,7%. Οι ιδιοκτήτες στα 370 υπάρχοντα καταστήματά σας στέλνουν επιστολές αναπροσαρμογής αυτή τη στιγμή. Χωρίς αυτοματοποιημένη επαλήθευση βάσει ΕΛΣΤΑΤ, ακόμα και ένα σφάλμα 0,5% που αποδέχεστε σε όλο το χαρτοφυλάκιο προσθέτει εκατοντάδες χιλιάδες ευρώ ετησίως.",
         },
         {
           number: "02",
-          title: "Ανεπαλήθευτες αυξήσεις ενοικίων",
-          desc: "Ο ΔΤΚ είναι στο 2,7%. Οι ιδιοκτήτες στέλνουν επιστολές αναπροσαρμογής τώρα. Σε 1.200 τοποθεσίες, ακόμα και ένα σφάλμα 0,5% που αποδέχεστε σημαίνει εκατοντάδες χιλιάδες ευρώ ετησίως σε σιωπηρή υπερπληρωμή.",
+          title: "890 νέες μισθώσεις φτάνουν χωρίς τυποποίηση",
+          desc: "Η Κρητικός λειτουργούσε σε 6 τύπους καταστημάτων — εταιρικά, franchise, Αριάδνη, Ελληνικές Αγορές, Πρόοδος, Ήλιος. Διαφορετικοί όροι, ιδιοκτήτες και ρήτρες λήξης. Χάστε μία προθεσμία ειδοποίησης και πληρώνετε ενοίκιο για κατάστημα που σχεδιάζατε να κλείσετε.",
         },
         {
           number: "03",
-          title: "Απόκλιση ισολογισμού",
-          desc: "Κάθε τροποποίηση μίσθωσης κατά την ενοποίηση πρέπει να ενημερώσει το SAP για το IFRS 16. Όταν λειτουργίες και οικονομικά δεν συγχρονίζονται, προκύπτουν ευρήματα ελέγχου — όχι καθαρές αναφορές.",
+          title: "Το ενοποιημένο χαρτοφυλάκιο σπάει τους χειροκίνητους ελέγχους",
+          desc: "Κάθε μίσθωση σε 1.200+ τοποθεσίες πρέπει να εμφανίζεται στον ισολογισμό βάσει IFRS 16. Όταν οι λειτουργίες τροποποιούν μισθώσεις πιο γρήγορα απ' ό,τι τα οικονομικά ενημερώνουν το SAP, προκύπτουν ευρήματα ελέγχου — όχι καθαρές αναφορές.",
         },
       ],
     },
@@ -171,6 +175,10 @@ export const translations = {
         {
           title: "Συγκριτική Αξιολόγηση Capex & Opex",
           desc: "Συγκρίνετε κόστος ενέργειας, συντήρησης και ανακαίνισης ανά τ.μ. σε κάθε τύπο καταστήματος.",
+        },
+        {
+          title: "Καταλληλότητα Τοποθεσίας & Πληροφόρηση Αγοράς",
+          desc: "Με τη REDataset, τον Έλληνα εταίρο μας στην ανάλυση δεδομένων. Αξιολόγηση νέων τοποθεσιών, συγκριτική αξιολόγηση ενοικίων και πρόβλεψη αποδόσεων για επέκταση στην Αττική.",
         },
       ],
     },
@@ -216,7 +224,7 @@ export const translations = {
     },
     cta: {
       title: "Δείτε το χαρτοφυλάκιό σας στο Asset Dynamics.",
-      subtitle: "30 λεπτά. Τα δικά σας δεδομένα. Ζωντανή παρουσίαση του πώς μοιάζει ο έλεγχος σε 1.200 καταστήματα.",
+      subtitle: "30 λεπτά. Τα πραγματικά σας δεδομένα μισθώσεων. Δείτε πώς μοιάζει ο ενιαίος έλεγχος στα χαρτοφυλάκια Μασούτη και Κρητικού μαζί.",
       button: "Κλείστε Demo",
     },
     footer: {
