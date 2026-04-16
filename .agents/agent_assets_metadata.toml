@@ -18,3 +18,15 @@ id = "2t19o6ZorA1Zhvv6F4FCy"
 uri = "file://artifacts/asset-dynamics-masoutis/src/assets/images/thessaloniki.png"
 type = "image"
 title = "Aerial Thessaloniki Greece"
+
+[[generated]]
+id = "4VP-i6ugnGLie4xJILof8"
+uri = "file://artifacts/asset-dynamics-masoutis/src/assets/images/hero-video-poster.png"
+type = "image"
+title = "Hero video poster"
+
+[[generated]]
+id = "JzftfIv3W2qWAY0t8qOnu"
+uri = "file://artifacts/asset-dynamics-masoutis/src/assets/images/hero-video-poster-2.png"
+type = "image"
+title = "Dashboard video poster"

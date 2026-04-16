@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 
 import thessalonikiImg from "../assets/images/thessaloniki.png";
 import supermarketImg from "../assets/images/supermarket.png";
+import videoPosterImg from "../assets/images/hero-video-poster.png";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -73,6 +74,25 @@ export default function LandingPage() {
               Asset Dynamics helps Masoutis unify the Kritikos portfolio, automate CPI indexation, and keep SAP financial reporting aligned. The result is stronger governance, faster decision-making, and lower operational risk across the full national network.
             </motion.p>
           </motion.div>
+        </div>
+      </section>
+
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent mb-4">Video overview</p>
+              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-5">See Asset Dynamics in motion</h2>
+              <p className="text-muted-foreground text-lg">
+                This embedded video introduces the platform’s portfolio control, AI lease intelligence, and reporting workflow in one quick overview.
+              </p>
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-border shadow-2xl bg-card">
+              <video controls poster={videoPosterImg} className="w-full aspect-video bg-black">
+                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
         </div>
       </section>
 
