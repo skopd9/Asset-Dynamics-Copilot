@@ -63,7 +63,8 @@ function PasswordGate({ onUnlock }: { onUnlock: () => void }) {
 }
 
 function Router() {
-  const [unlocked, setUnlocked] = useState(false);
+  const isDev = import.meta.env.DEV;
+  const [unlocked, setUnlocked] = useState(isDev);
 
   if (!unlocked) {
     return <PasswordGate onUnlock={() => setUnlocked(true)} />;
