@@ -1,6 +1,6 @@
 kind = "web"
 previewPath = "/"
-title = "Asset Dynamics – Masoutis Pitch"
+title = "Asset Dynamics for Masoutis – AI-Driven Real Estate Management"
 version = "1.0.0"
 id = "artifacts/asset-dynamics-masoutis"
 router = "path"
